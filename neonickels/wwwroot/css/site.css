@@ -26,3 +26,42 @@
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    .nav-link.active {
+        font-weight: bold;
+    }
+
+.content {
+    flex: 1;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;  
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
